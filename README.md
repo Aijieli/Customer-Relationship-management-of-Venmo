@@ -16,7 +16,9 @@ Firends refers to the number of friends the user has for a certain period. Frien
 
 - Clustering Coefficient<br>
 <img src="https://github.com/Aijieli/Venmo-Social-Network-and-RFM-Analysis/blob/master/clustering%20coefficient.png" width="600" height="80">
+
 - Page Rank<br>
+PageRank computes a ranking of the nodes in the graph G based on the structure of the incoming links. It was originally designed as an algorithm to rank web pages. Here we used each user as nodes and each transaction as en edge.
 
 ## RF metrics (Recency, Frequency)
 - Recency<br>
@@ -24,3 +26,6 @@ Recency was calculated as the days since last transaction time for each users. F
 
 - Frequency<br>
 Frequency was calculated as the number of transactions for a certain period for each user. 
+
+## Regression
+For regression part, our target variable was the number of transactions for the users in his first 12 months and we firstly regressed only on Rencency and Frequency metrics. Then we added spending behavior profile metrics. Thirdly, we regressed only on social network metrics. Lastly, we regreesed on social network metrics and spending behavior profile metrics.
