@@ -15,7 +15,7 @@ We used classification dictionary to define the corresponding transaciton types 
 Firends refers to the number of friends the user has for a certain period. Friends of friends refers to the number of the users' friends' friends for a certain period.
 
 - Clustering Coefficient<br>
-<img src="https://github.com/Aijieli/Venmo-Social-Network-and-RFM-Analysis/blob/master/clustering%20coefficient.png" width="300" height="80">
+<img src="https://github.com/Aijieli/Venmo-Social-Network-and-RFM-Analysis/blob/master/clustering%20coefficient.png" width="600" height="50">
 - Page Rank<br>
 
 ## RF metrics (Recency, Frequency)
