@@ -15,9 +15,8 @@ We used classification dictionary to define the corresponding transaciton types 
 Firends refers to the number of friends the user has for a certain period. Friends of friends refers to the number of the users' friends' friends for a certain period.
 
 - Clustering Coefficient<br>
-Clustering coefficient 
-$CC(A) = P(two randomly selected friends of A are also friends)
-          = \frac{# of closed triangle of A(i.e., where A's two friends are also friends)}{# of triples of A (any 2 friends of A and A can combine a triplet)}$
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
 - Page Rank<br>
 
 ## RF metrics (Recency, Frequency)
