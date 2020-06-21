@@ -16,8 +16,8 @@ Firends refers to the number of friends the user has for a certain period. Frien
 
 - Clustering Coefficient<br>
 Clustering coefficient 
-$$CC(A) = P(two randomly selected friends of A are also friends)
-          = \frac{# of closed triangle of A(i.e., where A's two friends are also friends)}{# of triples of A (any 2 friends of A and A can combine a triplet)}$$
+$CC(A) = P(two randomly selected friends of A are also friends)
+          = \frac{# of closed triangle of A(i.e., where A's two friends are also friends)}{# of triples of A (any 2 friends of A and A can combine a triplet)}$
 - Page Rank<br>
 
 ## RF metrics (Recency, Frequency)
