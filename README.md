@@ -8,10 +8,21 @@ There are many factors would affect the number of transactions. We mainly focuse
 - the proportion of corresponding transaction type<br>
 We defined the transaction types by the description of the transaction including both words and emojis. For each users there would be more than one type for a transaction. After defining the transaction types, we calculated the proportion of the types in total transactions and used these in regression.
 
+We used classification dictionary to define the corresponding transaciton types and there were 10 types, which were activity, cash, event, food, illegal, others, people, transportation, travel and utility.
+
 ## Network Metrics
+- Friends and Friends of Friends<br>
+Firends refers to the number of friends the user has for a certain period. Friends of friends refers to the number of the users' friends' friends for a certain period.
+
+- Clustering Coefficient<br>
+Clustering coefficient 
+CC(A) = P(two randomly selected friends of A are also friends)
+          = \frac{# of closed triangle of A(i.e., where A's two friends are also friends)}{# of triples of A (any 2 friends of A and A can combine a triplet)}
+- Page Rank<br>
 
 ## RF metrics (Recency, Frequency)
 - Recency<br>
-Recency was calculated as the days since last transaction time for the users. For example, if we used 5/18 as the end time, the user last purchased on 5/15, and then the recency would be 3 days.
+Recency was calculated as the days since last transaction time for each users. For example, if we used 5/18 as the end time, the user last purchased on 5/15, and then the recency would be 3 days.
 
-- Frequency
+- Frequency<br>
+Frequency was calculated as the number of transactions for a certain period for each user. 
